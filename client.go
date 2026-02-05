@@ -1,15 +1,15 @@
 package swifthttp
 
 import (
-	"github.com/SyNdicateFoundation/fastrand"
+	"github.com/IzomSoftware/fastrand"
 	"github.com/valyala/bytebufferpool"
 	"golang.org/x/net/http2"
 	"net/http"
 	"sync"
 	"time"
 
-	"github.com/SyNdicateFoundation/legitagent"
-	"github.com/SyNdicateFoundation/singproxy"
+	"github.com/IzomSoftware/legitagent"
+	"github.com/IzomSoftware/singproxy"
 	utls "github.com/refraction-networking/utls"
 )
 

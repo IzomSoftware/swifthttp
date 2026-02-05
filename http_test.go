@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SyNdicateFoundation/legitagent"
+	"github.com/IzomSoftware/legitagent"
 	uquic "github.com/refraction-networking/uquic"
 	"github.com/refraction-networking/uquic/http3"
 	"github.com/shykes/spdy-go"

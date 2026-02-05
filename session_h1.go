@@ -11,7 +11,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/SyNdicateFoundation/legitagent"
+	"github.com/IzomSoftware/legitagent"
 	"github.com/valyala/bytebufferpool"
 )
 

@@ -13,7 +13,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/SyNdicateFoundation/legitagent"
+	"github.com/IzomSoftware/legitagent"
 	"github.com/shykes/spdy-go"
 	"github.com/valyala/bytebufferpool"
 )

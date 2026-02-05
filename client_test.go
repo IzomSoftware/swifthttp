@@ -1,13 +1,13 @@
 package swifthttp
 
 import (
-	"github.com/SyNdicateFoundation/fastrand"
+	"github.com/IzomSoftware/fastrand"
 	"reflect"
 	"testing"
 	"time"
 
-	"github.com/SyNdicateFoundation/legitagent"
-	"github.com/SyNdicateFoundation/singproxy"
+	"github.com/IzomSoftware/legitagent"
+	"github.com/IzomSoftware/singproxy"
 	utls "github.com/refraction-networking/utls"
 )
 

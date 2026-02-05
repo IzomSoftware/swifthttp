@@ -1,9 +1,9 @@
 # SwiftHTTP
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/SyNdicateFoundation/swifthttp.svg)](https://pkg.go.dev/github.com/SyNdicateFoundation/swifthttp)
-[![Go Report Card](https://goreportcard.com/badge/github.com/SyNdicateFoundation/swifthttp)](https://goreportcard.com/report/github.com/SyNdicateFoundation/swifthttp)
+[![Go Reference](https://pkg.go.dev/badge/github.com/IzomSoftware/swifthttp.svg)](https://pkg.go.dev/github.com/IzomSoftware/swifthttp)
+[![Go Report Card](https://goreportcard.com/badge/github.com/IzomSoftware/swifthttp)](https://goreportcard.com/report/github.com/IzomSoftware/swifthttp)
 
-**SwiftHTTP** is a powerful and flexible, high-performance HTTP client library for Go, engineered for speed, efficiency, and advanced customization. Designed by the SyNdicate Foundation, it provides a low-level interface for crafting and executing HTTP requests with precision, supporting modern protocols like HTTP/2, HTTP/3, and the legacy SPDY/3.1.
+**SwiftHTTP** is a powerful and flexible, high-performance HTTP client library for Go, engineered for speed, efficiency, and advanced customization. Designed by the Izom Software, it provides a low-level interface for crafting and executing HTTP requests with precision, supporting modern protocols like HTTP/2, HTTP/3, and the legacy SPDY/3.1.
 
 The library is built to handle millions of fast requests, offering features like connection pooling, IP spoofing, and deep customization of TLS handshakes using `uTLS` to mimic various browser fingerprints.
 
@@ -23,7 +23,7 @@ The library is built to handle millions of fast requests, offering features like
 To add SwiftHTTP to your Go project, run the following command:
 
 ```sh
-go get github.com/SyNdicateFoundation/swifthttp
+go get github.com/IzomSoftware/swifthttp
 ```
 
 Here's a basic example of how to create a client and make a simple GET request.
@@ -38,7 +38,7 @@ import (
 	"log"
 	"net/url"
 
-	"github.com/SyNdicateFoundation/swifthttp"
+	"github.com/IzomSoftware/swifthttp"
 )
 
 func main() {
@@ -189,10 +189,6 @@ This separation allows for efficient resource management, as a single `Client` c
 
 ## 🤝 Contributing
 
-The SyNdicate Foundation welcomes contributors of all backgrounds. Trust is key to our success, and we invite anyone who earns our trust to join the development team. Our projects adhere to high ethical standards, and we believe in helping each other grow.
+The Izom Software welcomes contributors of all backgrounds. Trust is key to our success, and we invite anyone who earns our trust to join the development team. Our projects adhere to high ethical standards, and we believe in helping each other grow.
 
-If you encounter an issue or have a feature request, please [open an issue](https://github.com/SyNdicateFoundation/swifthttp/issues) on GitHub.
-
-## 📜 License
-
-This project is licensed under the terms of the SyNdicate Foundation. Please see the license file for more details.
+If you encounter an issue or have a feature request, please [open an issue](https://github.com/IzomSoftware/swifthttp/issues) on GitHub.

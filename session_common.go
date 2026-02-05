@@ -1,8 +1,8 @@
 package swifthttp
 
 import (
-	"github.com/SyNdicateFoundation/fastrand"
-	"github.com/SyNdicateFoundation/legitagent"
+	"github.com/IzomSoftware/fastrand"
+	"github.com/IzomSoftware/legitagent"
 	"github.com/valyala/bytebufferpool"
 	"io"
 	"net"

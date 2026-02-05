@@ -3,7 +3,7 @@ package swifthttp
 import (
 	"context"
 	"fmt"
-	"github.com/SyNdicateFoundation/fastrand"
+	"github.com/IzomSoftware/fastrand"
 	"io"
 	"net"
 	"net/http"
@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SyNdicateFoundation/legitagent"
+	"github.com/IzomSoftware/legitagent"
 	"github.com/refraction-networking/uquic/http3"
 	utls "github.com/refraction-networking/utls"
 	"golang.org/x/net/http2"

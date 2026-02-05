@@ -17,7 +17,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SyNdicateFoundation/legitagent"
+	"github.com/IzomSoftware/legitagent"
 )
 
 type httpbinResponse struct {

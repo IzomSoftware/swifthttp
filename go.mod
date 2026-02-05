@@ -1,11 +1,11 @@
-module github.com/SyNdicateFoundation/swifthttp
+module github.com/IzomSoftware/swifthttp
 
 go 1.25.0
 
 require (
-	github.com/SyNdicateFoundation/fastrand v1.0.0
-	github.com/SyNdicateFoundation/legitagent v1.0.3
-	github.com/SyNdicateFoundation/singproxy v1.0.0
+	github.com/IzomSoftware/fastrand v1.0.0
+	github.com/IzomSoftware/legitagent v1.0.3
+	github.com/IzomSoftware/singproxy v1.0.0
 	github.com/refraction-networking/uquic v0.0.6
 	github.com/refraction-networking/utls v1.8.0
 	github.com/shykes/spdy-go v0.0.0-20130118032238-0ee95b1b8e48

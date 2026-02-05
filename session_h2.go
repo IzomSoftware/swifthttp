@@ -13,7 +13,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/SyNdicateFoundation/legitagent"
+	"github.com/IzomSoftware/legitagent"
 	"github.com/valyala/bytebufferpool"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/hpack"
